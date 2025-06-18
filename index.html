@@ -3,9 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Anime list</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <header class="header_nav">
+        <nav class="barra_navegacion">
+            <div id="Titulo_principal_barra"> <a>ANIME LIST</a> </div>
+            <div class="botones_barra"> <a>Nuevo</a> </div>
+            <div class="botones_barra"> <a>Generaciones</a> </div>
+            <div class="botones_barra"> <a>TOP 10</a> </div>
+            <div class="botones_barra"> <a>Modo</a> </div>
+        </nav>
+    </header>
+
+    <main class="contenido_page_principal">
+        <section class="Parte_1_p">
+            <div id="logo_principal">
+                <img src="/img/Anime_list_white.png" alt="Logo de la pagina">
+            </div>
+            <div class="search-container_ex">
+                <div class="search-container_in">
+                    <button id="search-button"><img src="/img/lupa_img.webp" alt="Lupa"></button>
+                    <input id="input_busqueda" type="text" placeholder="Buscar..." class="search-input">
+                    <button id="fill_button"><img src="/img/menuham_img.png" alt="Lupa"></button>
+                </div>
+            </div>
+            <div class="opciones_2">
+                <select name="opciones" id="filtro_2">
+                    <option value="opcion1">Desendente</option>
+                    <option value="opcion2">Acendente</option>
+                </select>
+                <button id="fill_button_2"><img src="/img/grid2_img_w.png" alt="Lupa"></button>
+                <button id="fill_button_2"><img src="/img/list_img_w.png" alt="Lupa"></button>
+            </div>
+        </section>
+        <section class="parte_2_p">
+            <div id="cards">
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer_principal">
+        <section class="content_footer">
+            <p>By Orinson Coba</p>         
+        </section>
+    </footer>
+
+    <script src="scripts.js"></script>
 </body>
+
 </html>
